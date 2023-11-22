@@ -1,0 +1,106 @@
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  color: white;
+  text-align: left;
+}
+
+h1 {
+  background: linear-gradient(
+    57.94deg,
+    #52ff00,
+    rgba(163, 255, 51, 0.95) 36.57%,
+    #fff846 65.74%,
+    #fdf300
+  );
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 900;
+}
+
+.transfer-div {
+  border: 1px dashed #ccc;
+  padding: 20px;
+  margin-top: 20px;
+  width: 100%;
+  max-width: 400px;
+}
+
+h2 {
+  color: white;
+  margin-bottom: 15px;
+  margin-top: 0px;
+  text-decoration: underline;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+label {
+  margin-bottom: 5px;
+  /* color: #777; */
+}
+
+input {
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+input::placeholder {
+  font-family: "Courier Prime", monospace;
+  color: #aaa; /* Adjust the color as needed */
+}
+
+button {
+  padding: 8px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-family: "Courier Prime", monospace;
+  font-weight: 900;
+  font-size: 18px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.key-styling {
+  color: #52ff00;
+  font-weight: 600;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 800px) {
+  .body {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  .transfer-div {
+    margin-top: 10px;
+    padding: 10px;
+    max-width: 90%;
+  }
+  .transfer-div p {
+    font-size: 14px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+}

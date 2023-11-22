@@ -1,0 +1,35 @@
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  color: white;
+  text-align: left;
+}
+
+h1 {
+  background: linear-gradient(
+    57.94deg,
+    #52ff00,
+    rgba(163, 255, 51, 0.95) 36.57%,
+    #fff846 65.74%,
+    #fdf300
+  );
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 900;
+}
+
+.wallet-div {
+  border: 1px dashed #ccc;
+  padding: 20px;
+  margin-top: 20px;
+  width: 60%;
+}
+
+.address {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
